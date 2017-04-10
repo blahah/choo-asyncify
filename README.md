@@ -1,8 +1,6 @@
 <div align="center"><h1>choo-asyncify</h1></div>
 
-<div align="center">
-  ![![https://img.shields.io/badge/works%20with-choo%20v5-ff69b4.svg?style=flat-square](works with choo v5)](https://github.com/yoshuawuyts/choo) :steam_locomotive::train::train::train::train::train: (`choo`) + :train: (`choo-asyncify`)
-</div>
+[![works with choo v5](https://img.shields.io/badge/works%20with-choo%20v5-ff69b4.svg?style=flat-square)](https://github.com/yoshuawuyts/choo) :steam_locomotive::train::train::train::train::train: (`choo`) + :train: (`choo-asyncify`)
 
 [choo](https://github.com/yoshuawuyts/choo) is a super lightweight, well engineered frontend framework.
 
