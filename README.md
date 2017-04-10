@@ -9,6 +9,9 @@
   <a href="https://github.com/yoshuawuyts/choo" alt="works with choo v5">
     <img src="https://img.shields.io/badge/works%20with-choo%20v5-ff69b4.svg?style=flat-square"/>
   </a>
+  <a href="https://npmjs.com/package/choo-asyncify" alt="npm package">
+    <img src="https://img.shields.io/npm/v/choo-asyncify.svg?style=flat-square"/>
+  </a>
 </div>
 
 <div align="center">
