@@ -1,0 +1,24 @@
+{
+  "name": "choo-asyncify",
+  "version": "0.0.1",
+  "description": "Make choo's emitter asynchronous",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blahah/choo-async.git"
+  },
+  "keywords": [
+    "choo",
+    "frontend",
+    "async"
+  ],
+  "author": "Rik Smith-Unna @blahah (rik@fathomlabs.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blahah/choo-async/issues"
+  },
+  "homepage": "https://github.com/blahah/choo-async#readme"
+}
