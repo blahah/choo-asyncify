@@ -22,7 +22,7 @@
 
 [choo](https://github.com/yoshuawuyts/choo) is a super lightweight, well engineered frontend framework.
 
-`choo` v5 is event-based. Where previous versions would asynchronously send messages from views to effects, v5 uses [nanobus](https://github.com/yoshuawuyts/nanobus) to send synchronous events.
+`choo` v5 is event-based. Where previous versions would asynchronously send messages from views to effects, v5 uses [nanobus](https://github.com/yoshuawuyts/nanobus) to send [synchronous events](https://github.com/yoshuawuyts/nanobus#are-the-emitters-asynchronous).
 Depending on how you structure your app, this might cause blocking of UI updates.
 
 `choo-asyncify` monkey-patches the `nanobus` instance passed around by `choo` so that every event is non-blocking.
