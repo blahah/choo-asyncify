@@ -1,6 +1,8 @@
 // monkey-patch choo's nanobus emitter
 // so that every event is async with setImmediate() / setTimeout(fn, 0)
-var asyncify = setImmediate || function (fn) { setTimeout(fn, 0) }
+var asyncify = typeof setImmediate === "function"
+  ? setImmediate
+  : function (fn) { setTimeout(fn, 0) }
 
 module.exports = function (state, emitter) {
   var _emit = emitter.emit
